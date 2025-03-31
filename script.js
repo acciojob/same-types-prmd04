@@ -3,7 +3,7 @@ function isSameType(value1, value2) {
 	let a = typeof(value1);
 	let b = typeof(value2);
 
-	return a == b;
+	return a === b;
 }
 
 // do not change the code below.
